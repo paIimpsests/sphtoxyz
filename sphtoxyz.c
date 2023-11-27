@@ -125,7 +125,7 @@ int parse_input(int argc, char* argv[]) {
     }
     // Wrong usage warning
     if (optind > argc-1) {
-        printf("[sphtoxyz] Usage: ./sphtoxyz [OPTIONS] SOURCE\n [sphtoxyz] Help: ./sphtoxyz -h\n");
+        printf("[sphtoxyz] Usage: ./sphtoxyz [OPTIONS] SOURCE\n[sphtoxyz] Help: ./sphtoxyz -h\n");
         exit(0);
     }
 
